@@ -1,0 +1,37 @@
+{
+  "name": "AllRecipe",
+  "version": "1.0.0",
+  "description": "ПИС labs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.html.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebenezerofori/allrecipes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebenezerofori/allrecipes/issues"
+  },
+  "homepage": "https://github.com/ebenezerofori/allrecipes#readme",
+  "dependencies": {
+    "whatwg-fetch": "1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.16.0",
+    "babel-core": "6.17.0",
+    "babel-loader": "6.2.5",
+    "babel-preset-latest": "6.16.0",
+    "babel-register": "6.16.3",
+    "chai": "3.5.0",
+    "cross-env": "3.1.3",
+    "css-loader": "0.25.0",
+    "express": "^4.17.1",
+    "jsdom": "9.8.0",
+    "mocha": "^8.2.1",
+    "style-loader": "0.13.1"
+  }
+}
